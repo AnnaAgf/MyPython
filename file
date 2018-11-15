@@ -1,4 +1,4 @@
 #
-name = input("your name ")
+name = raw_input("enter name: ")
 age = input("how old are you ")
-print(name, 'turn 100 years old in', 2018+(100-age))
+print(name + ' turn 100 years old in', 2018+(100-age))
