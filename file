@@ -1,0 +1,7 @@
+#
+number = input("enter number: ")
+a = number%2
+if a == 0:
+  print ("chet")
+elif a != 0:
+    print ("nechet")
