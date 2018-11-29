@@ -28,8 +28,7 @@ while True:
         continue
 
     if letter in secret_word:
-        idx = 0
-        for char in secret_word:
+        for idx, char in enumerate(secret_word):
             if char == letter:
                 users_word[idx] = letter
             idx += 1
@@ -47,5 +46,4 @@ while True:
 print('Bye!')
 
     #print(letter)
-
 
